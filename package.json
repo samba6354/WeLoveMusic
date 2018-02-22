@@ -1,0 +1,7 @@
+{
+  "name": "test_music",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  }
+}
