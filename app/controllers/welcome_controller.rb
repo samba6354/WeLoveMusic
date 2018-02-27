@@ -6,6 +6,9 @@ end
 def songs
 end
 
+def andhra_mirchi
+end
+
 def gaali
 end
 
