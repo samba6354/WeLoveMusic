@@ -23,7 +23,7 @@
 
         .card-img-top{
           height: 125px;
-          width: 125px;
+          width: 135px;
         }
 
         .fm{
@@ -70,10 +70,14 @@
 </br>
 </br>
         <div class= "fm">
-            <h2><span class="badge badge-success">FM Stations List</span></h2>
-            <audio controls src="http://50.7.99.163:11091/;"></audio></br>
-            <audio controls src="http://proxima.shoutca.st:8266/stream"></audio></br>
-            <audio controls src="http://184.154.202.243:8310/stream;"></audio></br>
+            <h2><span class="badge badge-success">FM Station 1: NRI Radio</span></h2>
+            <audio controls src="http://50.7.99.163:11091/;"></audio><br></br>
+            <h2><span class="badge badge-success">FM Station 2: Spicy Radio</span></h2>
+            <audio controls src="http://proxima.shoutca.st:8266/stream"></audio><br></br>
+            <h2><span class="badge badge-success">FM Station 3: Andhra Mirchi</span></h2>
+            <audio controls src="http://184.154.202.243:8310/stream;"></audio><br></br>
+            <h2><span class="badge badge-success">FM Station 4: Radio 9</span></h2>
+            <audio controls src="http://174.37.252.208:8530/;stream.mp3;"></audio><br></br>
         </div>
       </div>
     </div>
@@ -316,7 +320,7 @@
             </div>
             <input type="text" class="h4 text-ribbon-input text-ribbon-input-half text-ribbon-primary" placeholder="Email">
             <button type="button" class="btn btn-square btn-primary btn-lg btn-block">
-              Sign UP
+              Sign Up
             </button>
           </div>
         </div>
@@ -329,8 +333,8 @@
       <div class="row text-serif">
         <div class="col-md-2 mb-4">
           <ul class="list-unstyled list-spaced">
-            <li><h4>About US</h4></li>
-            <li class="text-muted"><em>We Love Music</em></li>
+            <li><h4>About Us</h4></li>
+            <li class="text-muted"><em><%= link_to 'We Love Music', root_path %></em></li>
             <li class="text-muted"><em><%= link_to 'Songs', songs_path %></em></li>
             <li class="text-muted"><em><%= link_to 'Lyrics', teluse_path %></em></li>
             <li class="text-muted"><em><%= link_to 'FM Radio', andhra_mirchi_path %></em></li>
@@ -339,10 +343,10 @@
         <div class="col-md-2 mb-4">
           <ul class="list-unstyled list-spaced">
             <li><h4>Social</h4></li>
-            <li class="text-muted"><em>Facebook</em></li>
-            <li class="text-muted"><em>Twitter</em></li>
-            <li class="text-muted"><em>Google +</em></li>
-            <li class="text-muted"><em>Skype</em></li>
+            <li class="text-muted"><em><a href="https://facebook.com/WeLoveTeluguMusic/">Facebook</a></em></li>
+            <li class="text-muted"><em><a href="https://twitter.com/">Twitter</a></em></li>
+            <li class="text-muted"><em><a href="https://gmail.com/">Google +</a></em></li>
+            <li class="text-muted"><em><a href="https://skype.com/">Skype</a></em></li>
           </ul>
         </div>
         <div class="col-md-2 mb-4">
@@ -358,16 +362,14 @@
           <ul class="list-unstyled list-spaced">
             <li><h4>Quick Items</h4></li>
             <li class="text-muted">
-              <em>Pick your favourite: <a  <%= link_to 'Oosupodu Lyrics', oosupodu_path %></a> and <a <%= link_to 'Kothaga Kothaga Song lyrics', kothaga_path %></a>,<a <%= link_to 'Audio Songs', songs_path %></a>, and <a <%= link_to 'Rayyi Rayyi Mantu', rayyi_path %></a> <a <%= link_to 'FM Radio', andhra_mirchi_path %></a>, and <a <%= link_to 'Yantrapu Lokapu', yenthara_path %></a> <%= link_to 'Ne Kallalona', nekalla_path %></a>. and <a <%= link_to 'Adiga Adiga', adiga_path %></a> are shared under the <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0 license</a>.</em>
+              <em>Pick your favourite: <a  <%= link_to 'Oosupodu Lyrics,', oosupodu_path %></a> and <a <%= link_to 'Kothaga Kothaga Song lyrics', kothaga_path %></a>,<a <%= link_to 'Audio Songs', songs_path %></a>, and <a <%= link_to 'Rayyi Rayyi Mantu', rayyi_path %></a> <a <%= link_to 'FM Radio', andhra_mirchi_path %></a>,<a <%= link_to 'Yantrapu Lokapu,', yenthara_path %></a> <%= link_to 'Ne Kallalona', nekalla_path %></a> <a <%= link_to 'Adiga Adiga', adiga_path %></a> are shared under the <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0 license</a>.</em>
             </li>
           </ul>
         </div>
       </div>
     </div>
   </div>
-
 </div>
-
     <!-- <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/js/tether.min.js"></script>
     <script src="../assets/js/toolkit.js"></script>
