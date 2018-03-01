@@ -9,6 +9,9 @@ end
 def andhra_mirchi
 end
 
+def video_songs
+end
+
 def gaali
 end
 

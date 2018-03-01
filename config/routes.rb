@@ -5,6 +5,7 @@ root 'welcome#home'
 
 get 'songs', to: 'welcome#songs'
 get 'andhra_mirchi', to: 'welcome#andhra_mirchi'
+get 'video_songs', to: 'welcome#video_songs'
 get 'gaali', to: 'welcome#gaali'
 get 'merise', to: 'welcome#merise'
 get 'kothaga', to: 'welcome#kothaga'
