@@ -1702,3 +1702,91 @@ Processing by WelcomeController#video_songs as HTML
 Completed 200 OK in 54ms (Views: 52.1ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-03-07 11:43:11 -0500
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1965.8ms)
+Completed 200 OK in 2464ms (Views: 2091.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-07 11:44:17 -0500
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 43ms (Views: 42.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-07 14:37:42 -0500
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2495.5ms)
+Completed 200 OK in 2569ms (Views: 2567.4ms)
+
+
+Started GET "/songs" for 127.0.0.1 at 2018-03-07 14:45:39 -0500
+Processing by WelcomeController#songs as HTML
+  Rendering welcome/songs.html.erb within layouts/application
+  Rendered welcome/songs.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 140ms (Views: 138.6ms)
+
+
+Started GET "/songs" for 127.0.0.1 at 2018-03-07 15:01:33 -0500
+Processing by WelcomeController#songs as HTML
+  Rendering welcome/songs.html.erb within layouts/application
+  Rendered welcome/songs.html.erb within layouts/application (86.7ms)
+Completed 500 Internal Server Error in 92ms
+
+
+  
+ActionView::Template::Error (The asset "sainika.mp3.mp3" is not present in the asset pipeline.):
+    42: 
+    43:           <div class="audio_left">
+    44:           <h2><span class="badge badge-success">04 Sainika</span></h2>
+    45:           <%=audio_tag "sainika.mp3.mp3", class:'audio-to-play', controls:true %>
+    46:             </div><br></br>
+    47: 
+    48:             <div class="audio_left">
+  
+app/views/welcome/songs.html.erb:45:in `_app_views_welcome_songs_html_erb__3651237173352652353_36052420'
+Started GET "/songs" for 127.0.0.1 at 2018-03-07 15:03:59 -0500
+Processing by WelcomeController#songs as HTML
+  Rendering welcome/songs.html.erb within layouts/application
+  Rendered welcome/songs.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 136ms (Views: 135.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-07 15:04:03 -0500
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 90ms (Views: 88.4ms)
+
+
+Started GET "/songs" for 127.0.0.1 at 2018-03-07 15:04:41 -0500
+Processing by WelcomeController#songs as HTML
+  Rendering welcome/songs.html.erb within layouts/application
+  Rendered welcome/songs.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 109ms (Views: 108.5ms)
+
+
+Started GET "/video_songs" for 127.0.0.1 at 2018-03-07 15:04:48 -0500
+Processing by WelcomeController#video_songs as HTML
+  Rendering welcome/video_songs.html.erb within layouts/application
+  Rendered welcome/video_songs.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 58ms (Views: 56.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-07 15:05:12 -0500
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 48ms (Views: 46.7ms)
+
+
+Started GET "/video_songs" for 127.0.0.1 at 2018-03-07 15:05:24 -0500
+Processing by WelcomeController#video_songs as HTML
+  Rendering welcome/video_songs.html.erb within layouts/application
+  Rendered welcome/video_songs.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 71ms (Views: 69.6ms)
+
+
