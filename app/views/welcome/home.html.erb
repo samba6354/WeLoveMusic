@@ -32,8 +32,6 @@
         }
 
     </style>
-
-
     <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -73,16 +71,12 @@
   }]
 }
 </script>
-
-    </script>
   </head>
 
 <body>
 <div class="stage" id="stage">
-
   <div class="block block-fill-height app-block-wayne"
        style="background-image: url(/assets/q.jpg)">
-
     <div class="block-sm-right block-xs-top">
       <div class="container">
         <div class="row">
@@ -142,7 +136,7 @@
               <div class="card card-bold card-success mb-0 app-box-shadow">
                 <img src="/assets/dsp.jpg">
                 <div class="card-block pb-5">
-                  <h4 class="mb-0"> <%= link_to 'Devi Sri Prasad ', rayyi_path %></h4>
+                  <h4 class="mb-0"> <%= link_to 'Devi Sri Prasad ', dsp_path %></h4>
                   <p class="text-serif"><em>An Indian Composer, Singer, Musician and Philanthropist</em></p>
                   <hr>
                 <p class="text-serif"><em> DSP's works are noted for integrating Indian classical music with electronic music, world music and traditional orchestral arrangements.</em></p>
@@ -155,7 +149,7 @@
               <div class="card card-bold card-success mb-0 app-box-shadow">
                 <img src="/assets/anirudh.jpg">
                 <div class="card-block pb-5">
-                  <h4 class="mb-0"> <%= link_to 'Anirudh ', gaali_path %></h4>
+                  <h4 class="mb-0"> <%= link_to 'Anirudh ', anirudh_path %></h4>
                   <p class="text-serif"><em>An Indian Composer, Singer and Instrumentalist</em></p>
                   <hr>
                   <p class="text-serif"><em> Anirudh is an Indian film composer and singer, who primarily works in Tamil and Telugu films.</em></p>
@@ -168,29 +162,28 @@
           <div class="row">
             <div class="col-lg-6 mb-3 mb-md-5">
               <div class="app-box-shadow">
-                <img src="/assets/thaman.jpg">
+                <%= link_to(image_tag("/assets/thaman.jpg"), thaman_path) %>
+                <!-- <img src="/assets/thaman.jpg"> -->
               </div>
             </div>
             <div class="col-lg-6 mb-3 mb-md-5">
               <div class="app-box-shadow">
-                <img src="/assets/anoop.jpg">
+                <%= link_to(image_tag("/assets/anoop.jpg"), anoop_path) %>
               </div>
             </div>
             <div class="col-lg-6 mb-3 mb-md-5">
               <div class="app-box-shadow">
-                <img src="/assets/manisharma.jpg">
-              </div>
+              <%= link_to(image_tag("/assets/manisharma.jpg"), manisharma_path) %>
             </div>
             <div class="col-lg-6 mb-3 mb-md-5">
               <div class="app-box-shadow">
-                <img src="/assets/ilaiyaraja.jpg">
+                <%= link_to(image_tag("/assets/ilaiyaraja.jpg"), ilayaraja_path) %>
               </div>
             </div>
           </div>
           <div class="row hidden-md-down">
             <div class="col-lg-12">
-              <img src="/assets/ar_rahman.jpg">
-           </div>
+              <%= link_to(image_tag("/assets/ar_rahman.jpg"), ar_rehman_path) %>
           </div>
         </div>
       </div>
@@ -212,60 +205,61 @@
           <div class="row">
             <div class="col-sm-2">
               <div class="card">
-                 <img class="card-img-top" src="/assets/malli.jpg" alt="Card image cap">
+                 <img class="card-img-top" src="/assets/malli.jpg" alt="Malli Rava">
                 <div class="card-body">
                                     <!-- <h class="card-title">Malli Rava</h> -->
-                  <a class="btn btn-primary" <%= link_to 'Malli Rava', malli_path %> ></a>
+                  <a class="btn btn-primary" <%= link_to 'Malli Rava', malli_path %></a>
                 </div>
               </div>
             </div>
 
             <div class="col-sm-2">
               <div class="card">
-                 <img class="card-img-top" src="/assets/rayyi.jpg" alt="Card image cap">
+                 <img class="card-img-top" src="/assets/rayyi.jpg" alt="Rayyi rayyi">
                 <div class="card-body">
-                  <a class="btn btn-primary" <%= link_to 'Rayyi Rayyi', rayyi_path %> ></a>
+                  <a class="btn btn-primary" <%= link_to 'Rayyi Rayyi', rayyi_path %></a>
               </div>
                 </div>
               </div>
 
             <div class="col-sm-2">
               <div class="card">
-                 <img class="card-img-top" src="/assets/hello.jpg" alt="Card image cap">
+                 <img class="card-img-top" src="/assets/hello.jpg" alt="Merise">
                 <div class="card-body">
-                  <a class="btn btn-primary" <%= link_to 'Merise ', merise_path %> ></a>
+                  <a class="btn btn-primary" <%= link_to 'Merise ', merise_path %></a>
                 </div>
               </div>
             </div>
 
                   <div class="col-sm-2">
                     <div class="card">
-                       <img class="card-img-top" src="/assets/breakup.jpg" alt="Card image cap">
+                       <img class="card-img-top" src="/assets/breakup.jpg" alt="Breakup">
                       <div class="card-body">
-                      <a class="btn btn-primary" <%= link_to 'Break Up', teluse_path %> ></a>
+                      <a class="btn btn-primary" <%= link_to 'Break Up', teluse_path %></a>
                       </div>
                     </div>
                   </div>
 
                       <div class="col-sm-2">
                         <div class="card">
-                           <img class="card-img-top" src="/assets/yenthara.jpg" alt="Card image cap">
+                           <img class="card-img-top" src="/assets/yenthara.jpg" alt="Yenthara Lokapu">
                           <div class="card-body">
-                          <a class="btn btn-primary" <%= link_to 'Yenthara', yenthara_path %> ></a>
+                          <a class="btn btn-primary" <%= link_to 'Yenthara', yenthara_path %></a>
+                          </div>
                           </div>
                         </div>
-                        </div>
+
                         <div class="col-sm-2">
                           <div class="card">
-                             <img class="card-img-top" src="/assets/adiga.jpg" alt="Card image cap">
+                             <img class="card-img-top" src="/assets/adiga.jpg" alt="Adiga Adiga">
                             <div class="card-body">
-                            <a class="btn btn-primary" <%= link_to 'Adiga Adiga', adiga_path %> ></a>
+                            <a class="btn btn-primary" <%= link_to 'Adiga Adiga', adiga_path %></a>
                             </div>
                             </div>
                           </div>
           <div class="col-md-5 offset-sm-7">
             <h1 class="block-title mb-4">
-              <span class="text-ribbon text-ribbon-primary">
+               <span class="text-ribbon text-ribbon-primary">
                 <span>Hand Picked</span>
               </span>
             </h1>
@@ -281,6 +275,7 @@
       </div>
     </div>
   </div>
+
   <div class="block block-fill-height block-transparent block-inverse block-angle app-block-kanye">
     <div class="block-bg-clip">
       <div class="block-bg">
@@ -349,7 +344,7 @@
         <div class="row">
           <div class="col-md-6 offset-md-6">
             <h1 class="block-title mb-4">
-              <span class="text-ribbon text-ribbon-primary">
+              <span class="text-ribbon text-ribbon-success">
                 <span>Sign Up Now</span>
               </span>
             </h1>
@@ -375,8 +370,8 @@
         <div class="col-md-2 mb-4">
           <ul class="list-unstyled list-spaced">
             <li><h4>Quick Links</h4></li>
-            <li class="text-muted"><em><%= link_to 'We Love Music', root_path %></em></li>
-            <li class="text-muted"><em><%= link_to 'Songs', songs_path %></em></li>
+            <li class="text-muted"><em><%= link_to 'Video Songs', video_songs_path %></em></li>
+            <li class="text-muted"><em><%= link_to 'Audio Songs', songs_path %></em></li>
             <li class="text-muted"><em><%= link_to 'Lyrics', teluse_path %></em></li>
             <li class="text-muted"><em><%= link_to 'FM Radio', andhra_mirchi_path %></em></li>
           </ul>
@@ -392,11 +387,11 @@
         </div>
         <div class="col-md-2 mb-4">
           <ul class="list-unstyled list-spaced">
-            <li><h4>About Us</h4></li>
-            <li class="text-muted"><em>Name</em></li>
-            <li class="text-muted"><em>Email</em></li>
-            <li class="text-muted"><em>Phone</em></li>
-            <li class="text-muted"><em>Adress</em></li>
+            <li><h4>Artists</h4></li>
+            <li class="text-muted"><em><%= link_to 'Manisharma', manisharma_path %></em></li>
+            <li class="text-muted"><em><%= link_to 'Thaman S', thaman_path %></em></li>
+            <li class="text-muted"><em><%= link_to 'Devi Sri Prasad', dsp_path %></em></li>
+            <li class="text-muted"><em><%= link_to 'Anup Rubens', anoop_path %></em></li>
           </ul>
         </div>
         <div class="col-md-6 mb-4">
