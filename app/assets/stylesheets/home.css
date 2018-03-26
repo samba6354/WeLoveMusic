@@ -1,0 +1,27 @@
+body {
+  width: 1px;
+  min-width: 100%;
+  *width: 100%;
+}
+body{
+  overflow-y: hidden;
+}
+#stage {
+  height: 1px;
+  overflow: auto;
+  min-height: 100vh;
+}
+.navbar-brand{
+  font-family:fantasy;
+  font-size: 200%;
+  font-weight: 900;
+}
+
+.card-img-top{
+  height: 125px;
+  width: 155px;
+}
+
+.fm{
+  float: left;
+}
