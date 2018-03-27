@@ -3,9 +3,6 @@ body {
   min-width: 100%;
   *width: 100%;
 }
-body{
-  overflow-y: hidden;
-}
 #stage {
   height: 1px;
   overflow: auto;
