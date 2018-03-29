@@ -46,7 +46,6 @@
 }
 </script>
   </head>
-
 <body>
 <div class="stage" id="stage">
   <div class="block block-fill-height app-block-wayne" style="background-image: url(/assets/q.jpg)">
@@ -83,13 +82,11 @@
     </div>
   </div>
   <div class="block block-inverse block-transparent py-0 app-block-grid">
-
     <div class="block-bg-clip">
       <div class="block-bg">
         <div class="block-bg-img"></div>
       </div>
     </div>
-
     <div class="container" id="grid">
       <div class="row">
         <div class="col-lg-4 col-md-6">
@@ -126,27 +123,32 @@
               <div class="app-box-shadow">
                 <%= link_to(image_tag("/assets/thaman.jpg"), thaman_path) %>
                 <!-- <img src="/assets/thaman.jpg"> -->
-              </div>
+              </div><br>
+              <h4 class="mb-0"><%= link_to 'Thaman SS', thaman_path %></h4>
             </div>
             <div class="col-lg-6 mb-3 mb-md-5">
               <div class="app-box-shadow">
                 <%= link_to(image_tag("/assets/anoop.jpg"), anoop_path) %>
-              </div>
+              </div><br>
+              <h4 class="mb-0"><%= link_to 'Anup Rubens', anoop_path %></h4>
             </div>
             <div class="col-lg-6 mb-3 mb-md-5">
               <div class="app-box-shadow">
               <%= link_to(image_tag("/assets/manisharma.jpg"), manisharma_path) %>
-            </div>
-            </div>
+            </div><br>
+            <h4 class="mb-0"><%= link_to 'Manisharma', manisharma_path %></h4>
+            </div><br>
             <div class="col-lg-6 mb-3 mb-md-5">
               <div class="app-box-shadow">
                 <%= link_to(image_tag("/assets/ilaiyaraja.jpg"), ilayaraja_path) %>
-              </div>
-              </div>
+              </div><br>
+              <h4 class="mb-0"><%= link_to 'Ilayaraaja', ilayaraja_path %></h4>
+              </div><br>
           <div class="row hidden-md-down">
             <div class="col-lg-12">
               <%= link_to(image_tag("/assets/ar_rahman.jpg"), ar_rehman_path) %>
-          </div>
+          </div><br>
+          <h4 class="mb-0"><%= link_to 'A R Rahman', ar_rehman_path %></h4>
         </div>
       </div>
     </div>
@@ -328,7 +330,7 @@
             <li><h4>Quick Links</h4></li>
             <li class="text-muted"><em><%= link_to 'Video Songs', video_songs_path %></em></li>
             <li class="text-muted"><em><%= link_to 'Audio Songs', songs_path %></em></li>
-            <li class="text-muted"><em><%= link_to 'Lyrics', teluse_path %></em></li>
+            <li class="text-muted"><em><%= link_to 'Lyrics', lyrics_path %></em></li>
             <li class="text-muted"><em><%= link_to 'FM Radio', andhra_mirchi_path %></em></li>
           </ul>
         </div>
@@ -354,7 +356,7 @@
           <ul class="list-unstyled list-spaced">
             <li><h4>Quick Items</h4></li>
             <li class="text-muted">
-              <em>Pick your favourite: <a  <%= link_to 'Oosupodu Lyrics,', oosupodu_path %></a> and <a <%= link_to 'Kothaga Kothaga Song lyrics', kothaga_path %></a>,<a <%= link_to 'Audio Songs', songs_path %></a>, and <a <%= link_to 'Rayyi Rayyi Mantu', rayyi_path %></a> <a <%= link_to 'FM Radio', andhra_mirchi_path %></a>,<a <%= link_to 'Yantrapu Lokapu,', yenthara_path %></a> <%= link_to 'Ne Kallalona', nekalla_path %></a> <a <%= link_to 'Adiga Adiga', adiga_path %></a> are shared under the <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0 license</a>.</em>
+              <em>Pick your favourite: <a  <%= link_to 'Oosupodu Lyrics,', oosupodu_path %></a> and <a <%= link_to 'Kothaga Kothaga Song lyrics', kothaga_path %></a>,<a <%= link_to 'Audio Songs', songs_path %></a>, and <a <%= link_to 'Rayyi Rayyi Mantu', rayyi_path %></a> <a <%= link_to 'FM Radio', andhra_mirchi_path %></a>,<a <%= link_to 'Yantrapu Lokapu,', yenthara_path %></a> <%= link_to 'Ne Kallalona', nekalla_path %></a> <a <%= link_to 'Adiga Adiga', adiga_path %></a> are shared under the page.
             </li>
           </ul>
         </div>

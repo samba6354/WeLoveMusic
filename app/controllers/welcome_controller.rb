@@ -12,6 +12,9 @@ end
 def video_songs
 end
 
+def lyrics
+end
+
 def gaali
 end
 

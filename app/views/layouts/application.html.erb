@@ -19,10 +19,8 @@
       <link href="assets/toolkit-bold.css" rel="stylesheet">
       <link href="assets/application-bold.css" rel="stylesheet">
       <link href="assets/home.css" rel="stylesheet">
-      <!-- <link href="assets/heading.css" rel="stylesheet"> -->
       <link href="assets/main.css" rel="stylesheet">
       <link rel="icon" type="image/png" href="/assets/music_icon.ico">
-
 
     <style>
 
@@ -55,13 +53,16 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" <%= link_to 'Audio Songs', songs_path %><span class="sr-only">(current)</span></a>
+            <a class="nav-link" <%= link_to 'Lyrics', lyrics_path %><span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" <%= link_to 'FM Radio', andhra_mirchi_path %><span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" <%= link_to 'Video Songs', video_songs_path %><span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" <%= link_to 'Audio Songs', songs_path %><span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -75,6 +76,20 @@
               <a class="dropdown-item" <%= link_to 'Rayyi Rayyi Mantu', rayyi_path %></a>
             </div>
           </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Artists
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" <%= link_to 'A.R. Rahman', ar_rehman_path %></a>
+            <a class="dropdown-item" <%= link_to 'Devi Sri Prasad', dsp_path %></a>
+            <a class="dropdown-item" <%= link_to 'Mani Sharma', manisharma_path %></a>
+            <a class="dropdown-item" <%= link_to 'Ilayaraaja', ilayaraja_path %></a>
+            <a class="dropdown-item" <%= link_to 'Anirudh', anirudh_path %></a>
+            <a class="dropdown-item" <%= link_to 'Thaman S', thaman_path %></a>
+            <a class="dropdown-item" <%= link_to 'Anup Rubens', anoop_path %></a>
+          </div>
+        </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Albums
@@ -90,7 +105,7 @@
 
           <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Lyrics</a>
+      Melody Lyrics</a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" <%= link_to 'Adiga Adiga', adiga_path %></a>
           <a class="dropdown-item" <%= link_to 'Ne Kallalona', nekalla_path %></a>
@@ -99,20 +114,6 @@
           <a class="dropdown-item" <%= link_to 'Break UP', teluse_path %></a>
         </div>
       </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Artists
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" <%= link_to 'A.R. Rahman', ar_rehman_path %></a>
-              <a class="dropdown-item" <%= link_to 'Devi Sri Prasad', dsp_path %></a>
-              <a class="dropdown-item" <%= link_to 'Mani Sharma', manisharma_path %></a>
-              <a class="dropdown-item" <%= link_to 'Ilayaraaja', ilayaraja_path %></a>
-              <a class="dropdown-item" <%= link_to 'Anirudh', anirudh_path %></a>
-              <a class="dropdown-item" <%= link_to 'Thaman S', thaman_path %></a>
-              <a class="dropdown-item" <%= link_to 'Anup Rubens', anoop_path %></a>
-            </div>
-          </li>
         </ul>
       </div>
     </nav>
