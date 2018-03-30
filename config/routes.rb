@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 root 'welcome#home'
 
 get 'songs', to: 'welcome#songs'
-get 'andhra_mirchi', to: 'welcome#andhra_mirchi'
+get 'fm', to: 'welcome#fm'
 get 'video_songs', to: 'welcome#video_songs'
 get 'lyrics', to: 'welcome#lyrics'
 get 'gaali', to: 'welcome#gaali'

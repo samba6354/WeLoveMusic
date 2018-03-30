@@ -6,6 +6,7 @@
       overflow-y: hidden;
     }
     </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -89,18 +90,6 @@
   </div>
   </div>
 </div>
-
-
-        <!-- <div class= "fm">
-            <h2><span class="badge badge-success">FM Station 1: NRI Radio</span></h2>
-            <audio controls src="http://50.7.99.163:11091/;"></audio><br></br>
-            <h2><span class="badge badge-success">FM Station 2: Spicy Radio</span></h2>
-            <audio controls src="http://proxima.shoutca.st:8266/stream"></audio><br></br>
-            <h2><span class="badge badge-success">FM Station 3: Telugu One</span></h2>
-            <audio controls src="http://173.203.133.187:9700/;"></audio><br></br>
-            <h2><span class="badge badge-success">FM Station 4: Radio 9</span></h2>
-            <audio controls src="http://174.37.252.208:8530/;stream.mp3;"></audio><br></br>
-        </div> -->
       </div>
     </div>
   </div>
@@ -295,7 +284,7 @@
         </div>
           <div class="col-md-6">
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe width="682" height="284" src="https://www.youtube.com/embed/4gDYt1XPkkE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+              <iframe width="682" height="284" src="https://www.youtube.com/embed/2wGSKHW2PvI?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -354,7 +343,7 @@
             <li class="text-muted"><em><%= link_to 'Video Songs', video_songs_path %></em></li>
             <li class="text-muted"><em><%= link_to 'Audio Songs', songs_path %></em></li>
             <li class="text-muted"><em><%= link_to 'Lyrics', lyrics_path %></em></li>
-            <li class="text-muted"><em><%= link_to 'FM Radio', andhra_mirchi_path %></em></li>
+            <li class="text-muted"><em><%= link_to 'FM Radio', fm_path %></em></li>
           </ul>
         </div>
         <div class="col-md-2 mb-4">
@@ -379,14 +368,35 @@
           <ul class="list-unstyled list-spaced">
             <li><h4>Quick Items</h4></li>
             <li class="text-muted">
-              <em>Pick your favourite: <a  <%= link_to 'Oosupodu Lyrics,', oosupodu_path %></a> and <a <%= link_to 'Kothaga Kothaga Song lyrics', kothaga_path %></a>,<a <%= link_to 'Audio Songs', songs_path %></a>, and <a <%= link_to 'Rayyi Rayyi Mantu', rayyi_path %></a> <a <%= link_to 'FM Radio', andhra_mirchi_path %></a>,<a <%= link_to 'Yantrapu Lokapu,', yenthara_path %></a> <%= link_to 'Ne Kallalona', nekalla_path %></a> <a <%= link_to 'Adiga Adiga', adiga_path %></a> are shared under the page.
+              <em>Pick your favourite: <a  <%= link_to 'Oosupodu Lyrics,', oosupodu_path %></a> and <a <%= link_to 'Kothaga Kothaga Song lyrics', kothaga_path %></a>,<a <%= link_to 'Audio Songs', songs_path %></a>, and <a <%= link_to 'Rayyi Rayyi Mantu', rayyi_path %></a> <a <%= link_to 'FM Radio', fm_path %></a>,<a <%= link_to 'Yantrapu Lokapu,', yenthara_path %></a> <%= link_to 'Ne Kallalona', nekalla_path %></a> <a <%= link_to 'Adiga Adiga', adiga_path %></a> are shared under the page.
             </li>
           </ul>
         </div>
       </div>
+      <select id="rating" class="selectpicker">
+          <option>Excellent</option>
+          <option>Great</option>
+          <option>Good</option>
+          <option>Average</option>
+          <option>Bad</option>
+        </select>
+        <button id="choose" type="submit" class="btn btn-info btn-sm">
+          Choose</button><br>
+          <p></p>
+        <div id="choose-text" class="alert alert-success" role="alert">
+        <strong>  Hello User Please Choose Your Rating</strong>
+        </div>
     </div>
   </div>
 </div>
+<script type="text/javascript">
+document.getElementById('choose').onclick=function(){
+  var choosed="";
+  choosed=document.getElementById('rating').value;
+  document.getElementById('choose-text').innerHTML="Thank you for your feed back as " + choosed;
+}
+
+</script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>
 </html>

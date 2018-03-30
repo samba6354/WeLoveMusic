@@ -6,7 +6,7 @@ end
 def songs
 end
 
-def andhra_mirchi
+def fm
 end
 
 def video_songs
