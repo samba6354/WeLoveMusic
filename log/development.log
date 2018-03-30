@@ -5667,3 +5667,199 @@ Processing by ArtistsController#ar_rehman as HTML
 Completed 200 OK in 61ms (Views: 59.1ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-03-30 10:09:21 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2788.2ms)
+Started GET "/" for 127.0.0.1 at 2018-03-30 10:09:24 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (45.4ms)
+Completed 200 OK in 251ms (Views: 249.9ms)
+
+
+Completed 200 OK in 3783ms (Views: 3110.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-30 11:15:17 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 67ms (Views: 65.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-30 11:17:27 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 130ms (Views: 127.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-30 11:21:08 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 74ms (Views: 73.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-30 11:23:08 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 68ms (Views: 66.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-30 11:23:15 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 67ms (Views: 65.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-30 11:24:55 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 75ms (Views: 73.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-30 11:25:34 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 75ms (Views: 73.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-30 11:25:55 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 58ms (Views: 56.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-30 11:38:42 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 90ms (Views: 89.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-30 11:39:50 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 78ms (Views: 76.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-30 11:41:06 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 82ms (Views: 80.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-30 11:42:53 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 73ms (Views: 72.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-30 11:43:29 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 71ms (Views: 69.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-30 11:47:56 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 51ms (Views: 50.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-30 11:50:17 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 132ms (Views: 131.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-30 11:53:48 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 86ms (Views: 85.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-30 11:54:37 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 79ms (Views: 77.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-30 11:56:50 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 62ms (Views: 61.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-30 11:57:17 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 95ms (Views: 89.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-30 11:58:09 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 85ms (Views: 81.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-30 11:59:06 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 92ms (Views: 88.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-30 11:59:45 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 77ms (Views: 75.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-30 12:00:32 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 77ms (Views: 74.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-30 12:01:19 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (22.5ms)
+Completed 200 OK in 129ms (Views: 127.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-30 12:04:48 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 83ms (Views: 82.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-30 12:06:11 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 71ms (Views: 69.9ms)
+
+
