@@ -316,20 +316,24 @@
           <div class="col-md-6 offset-md-6">
             <h1 class="block-title mb-4">
               <span class="text-ribbon text-ribbon-success">
-                <span>Sign Up Now</span>
+              <span>Sign Up Now</span>
               </span>
             </h1>
-            <form action="https://facebook.com/WeLoveTeluguMusic/" method="post">
+            <form action="https://facebook.com/WeLoveTeluguMusic/" target="_blank" method="post">
             <div class="text-ribbon-inputs-split">
-              <input type="text" class="h4 text-ribbon-input text-ribbon-primary" placeholder="First Name" required>
-              <input type="text" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Last Name" required>
+              <input id="fname" type="text" class="h4 text-ribbon-input text-ribbon-primary" placeholder="First Name" required>
+              <input id="lname" type="text" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Last Name" required>
             </div>
             <input type="email" class="h4 text-ribbon-input text-ribbon-input-half text-ribbon-primary" placeholder="Email" required>
-            <button type="submit" class="btn btn-square btn-primary btn-lg btn-block">
+            <button id="submit-button" type="submit" class="btn btn-square btn-primary btn-lg btn-block">
               Sign Up !
             </button>
           </form>
           </div>
+        </div>
+        <p></p>
+        <div id="signup-text" class="alert alert-success" role="alert">
+        <strong>Hello User Please Fill fieldset for Sign up</strong>
         </div>
       </div>
     </div>
@@ -383,8 +387,8 @@
         <button id="choose" type="submit" class="btn btn-info btn-sm">
           Choose</button><br>
           <p></p>
-        <div id="choose-text" class="alert alert-success" role="alert">
-        <strong>  Hello User Please Choose Your Rating</strong>
+        <div id="choose-text" class="alert alert-info" role="alert">
+        <strong> Hello User Please Choose Your Rating For We Love Music</strong>
         </div>
     </div>
   </div>
@@ -393,9 +397,15 @@
 document.getElementById('choose').onclick=function(){
   var choosed="";
   choosed=document.getElementById('rating').value;
-  document.getElementById('choose-text').innerHTML="Thank you for your feed back as " + choosed;
+  document.getElementById('choose-text').innerHTML="Thank you for your feed back given as " + choosed;
 }
-
+document.getElementById('submit-button').onclick=function(){
+  var firstname= "";
+  var lastname= "";
+  firstname=document.getElementById('fname').value;
+  lastname=document.getElementById('lname').value;
+  document.getElementById('signup-text').innerHTML="Thank You " + firstname + " " + lastname + " For Sign up, Please Avoid Errors in All fields";
+}
 </script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>
