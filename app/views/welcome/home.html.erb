@@ -5,6 +5,12 @@
     body{
       overflow-y: hidden;
     }
+    #songs_list{
+      float: left;
+    }
+    /* #signup{
+      float: left;
+    } */
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="application/ld+json">
@@ -298,21 +304,66 @@
         </div>
       </div>
     </div>
+
+<div id="image_slider" class="row" >
+    <div id="slider" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#slider" data-slide-to="0" class="active"></li>
+    <li data-target="#slider" data-slide-to="1"></li>
+    <li data-target="#slider" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <div class="carousel-caption d-none d-md-block">
+      <h1>MLA</h1>
+      <p>Listen All tracks</p>
+      <a class="btn btn-info" <%= link_to 'Listen Here', mla_path %></a>
+     </div>
+     <img class="d-block img-fluid" src="/assets/mla.jpg" alt="Music Album 1">
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-caption d-none d-md-block">
+      <h1 class="text-serif">Rangasthalam</h1>
+      <p>Listen All tracks</p>
+      <a class="btn btn-info" <%= link_to 'Listen Here', ranga_path %></a>
+     </div>
+     <img class="d-block img-fluid" src="/assets/ranga2.jpg" alt="Music Album 2">
+    </div>
+    <div class="carousel-item">
+    <div class="carousel-caption d-none d-md-block">
+    <h1 class="text-serif" >Tholi Prema</h1>
+    <p>Listen All tracks</p>
+    <a class="btn btn-info" <%= link_to 'Listen Here', tholi_path %></a>
+   </div>
+   <img class="d-block img-fluid" src="/assets/tholi.jpg" alt="Music Album 3">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
     <div class="block-xs-middle">
-      <div class="container">
+      <div id="songs_list" class="container">
         <div class="audio_left">
       <h2><span class="badge badge-success">Guravaram</span></h2>
       <%=audio_tag "guruvaram.mp3", class:'audio-to-play', controls:true %>
       </div></br>
       <div class="audio_left">
-    <h2><span class="badge badge-warning">I Wanna Fly</span></h2>
-    <%=audio_tag "iwan.mp3", class:'audio-to-play', controls:true %>
+      <h2><span class="badge badge-warning">I Wanna Fly</span></h2>
+      <%=audio_tag "iwan.mp3", class:'audio-to-play', controls:true %>
       </div></br>
       <div class="audio_left">
       <h2><span class="badge badge-secondary">Tholi Prema</span></h2>
       <%=audio_tag "tholi.mp3", class:'audio-to-play', controls:true %>
         </div>
-        <div class="row">
+      </div>
+        <!-- <div id="signup" class="row"> -->
           <div class="col-md-6 offset-md-6">
             <h1 class="block-title mb-4">
               <span class="text-ribbon text-ribbon-success">
@@ -330,7 +381,7 @@
             </button>
           </form>
           </div>
-        </div>
+        <!-- </div> -->
         <p></p>
         <div id="signup-text" class="alert alert-success" role="alert">
         <strong>Hello User Please Fill fieldset for Sign up</strong>

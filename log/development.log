@@ -6542,3 +6542,732 @@ Processing by WelcomeController#home as HTML
 Completed 200 OK in 67ms (Views: 61.7ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-04-02 16:17:36 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1962.4ms)
+Completed 200 OK in 2844ms (Views: 2098.0ms)
+
+
+Started GET "/..." for 127.0.0.1 at 2018-04-02 16:17:40 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/..." for 127.0.0.1 at 2018-04-02 16:17:41 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-04-02 16:36:28 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 275ms (Views: 273.9ms)
+
+
+Started GET "/..." for 127.0.0.1 at 2018-04-02 16:36:29 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/..." for 127.0.0.1 at 2018-04-02 16:36:30 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/kirak" for 127.0.0.1 at 2018-04-02 16:37:28 -0400
+Processing by AlbumsController#kirak as HTML
+  Rendering albums/kirak.html.erb within layouts/application
+  Rendered albums/kirak.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 58ms (Views: 57.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-02 16:38:43 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 71ms (Views: 69.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-02 16:40:23 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 87ms (Views: 84.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-02 16:41:34 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 79ms (Views: 77.1ms)
+
+
+Started GET "/chal" for 127.0.0.1 at 2018-04-02 16:54:11 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/chal"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/chal" for 127.0.0.1 at 2018-04-02 16:56:14 -0400
+Processing by AlbumsController#chal as HTML
+  Rendering albums/chal.html.erb within layouts/application
+  Rendered albums/chal.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 176ms (Views: 173.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-02 16:58:15 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 68ms (Views: 66.9ms)
+
+
+Started GET "/ranga" for 127.0.0.1 at 2018-04-02 16:58:24 -0400
+Processing by AlbumsController#ranga as HTML
+  Rendering albums/ranga.html.erb within layouts/application
+  Rendered albums/ranga.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 87ms (Views: 86.0ms)
+
+
+Started GET "/chal" for 127.0.0.1 at 2018-04-02 16:58:44 -0400
+Processing by AlbumsController#chal as HTML
+  Rendering albums/chal.html.erb within layouts/application
+  Rendered albums/chal.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 67ms (Views: 65.8ms)
+
+
+Started GET "/kirak" for 127.0.0.1 at 2018-04-02 16:58:50 -0400
+Processing by AlbumsController#kirak as HTML
+  Rendering albums/kirak.html.erb within layouts/application
+  Rendered albums/kirak.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 60ms (Views: 57.5ms)
+
+
+Started GET "/chal" for 127.0.0.1 at 2018-04-02 16:59:48 -0400
+Processing by AlbumsController#chal as HTML
+  Rendering albums/chal.html.erb within layouts/application
+  Rendered albums/chal.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 59ms (Views: 57.9ms)
+
+
+Started GET "/ranga" for 127.0.0.1 at 2018-04-02 16:59:53 -0400
+Processing by AlbumsController#ranga as HTML
+  Rendering albums/ranga.html.erb within layouts/application
+  Rendered albums/ranga.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 60ms (Views: 57.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-02 17:00:44 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (21.7ms)
+Completed 200 OK in 95ms (Views: 94.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-02 17:01:02 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 62ms (Views: 61.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-02 17:06:39 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 61ms (Views: 60.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-02 17:11:42 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 69ms (Views: 67.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-02 17:13:33 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 81ms (Views: 73.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 09:35:59 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1439.9ms)
+Completed 200 OK in 1748ms (Views: 1522.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 09:53:50 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 72ms (Views: 71.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 10:17:00 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 67ms (Views: 65.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 10:18:55 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 72ms (Views: 69.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 10:20:06 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 68ms (Views: 66.5ms)
+
+
+Started GET "/ranga" for 127.0.0.1 at 2018-04-03 10:20:17 -0400
+Processing by AlbumsController#ranga as HTML
+  Rendering albums/ranga.html.erb within layouts/application
+  Rendered albums/ranga.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 63ms (Views: 62.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 10:28:31 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 90ms (Views: 89.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 10:34:48 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 109ms (Views: 108.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 11:36:39 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (18.7ms)
+Completed 200 OK in 119ms (Views: 118.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 11:37:08 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (35.2ms)
+Completed 200 OK in 225ms (Views: 223.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 11:37:46 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 69ms (Views: 67.0ms)
+
+
+Started GET "/ranga" for 127.0.0.1 at 2018-04-03 11:38:12 -0400
+Processing by AlbumsController#ranga as HTML
+  Rendering albums/ranga.html.erb within layouts/application
+  Rendered albums/ranga.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 48ms (Views: 46.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 11:38:15 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 76ms (Views: 75.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 11:41:20 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 78ms (Views: 74.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 11:50:28 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 54ms (Views: 53.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 11:59:35 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 92ms (Views: 90.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 12:00:36 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 86ms (Views: 83.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 13:53:49 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 84ms (Views: 83.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 13:59:32 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 65ms (Views: 64.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 14:03:00 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 51ms (Views: 50.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 14:06:29 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 69ms (Views: 68.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 14:09:24 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (25.7ms)
+Completed 200 OK in 66ms (Views: 65.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 14:12:51 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 83ms (Views: 82.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 14:16:19 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 67ms (Views: 66.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 14:21:51 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 69ms (Views: 68.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 14:47:53 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 165ms (Views: 163.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 14:50:41 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 69ms (Views: 68.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 14:51:42 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 61ms (Views: 60.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 14:52:32 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 67ms (Views: 66.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 14:53:48 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 86ms (Views: 84.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 14:56:05 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 59ms (Views: 57.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 14:58:27 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 61ms (Views: 59.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 14:58:55 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 73ms (Views: 72.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 15:17:58 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 63ms (Views: 62.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 15:22:54 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 70ms (Views: 69.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 15:29:48 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 154ms (Views: 152.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 15:35:20 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 209ms (Views: 203.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 15:37:34 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 177ms (Views: 176.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 15:38:03 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 127ms (Views: 125.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 15:40:44 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 59ms (Views: 56.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 15:41:52 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 60ms (Views: 58.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 15:54:56 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (24.7ms)
+Completed 200 OK in 97ms (Views: 95.8ms)
+
+
+Started GET "/mla" for 127.0.0.1 at 2018-04-03 15:55:06 -0400
+Processing by AlbumsController#mla as HTML
+  Rendering albums/mla.html.erb within layouts/application
+  Rendered albums/mla.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 58ms (Views: 56.5ms)
+
+
+Started GET "/tholi" for 127.0.0.1 at 2018-04-03 15:55:13 -0400
+Processing by AlbumsController#tholi as HTML
+  Rendering albums/tholi.html.erb within layouts/application
+  Rendered albums/tholi.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 50ms (Views: 49.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 15:55:16 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (19.3ms)
+Completed 200 OK in 64ms (Views: 63.0ms)
+
+
+Started GET "/mla" for 127.0.0.1 at 2018-04-03 15:55:25 -0400
+Processing by AlbumsController#mla as HTML
+  Rendering albums/mla.html.erb within layouts/application
+  Rendered albums/mla.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 61ms (Views: 60.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 15:55:28 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 58ms (Views: 56.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 16:01:25 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 58ms (Views: 57.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 16:03:17 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 84ms (Views: 82.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 16:03:55 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 72ms (Views: 70.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 16:04:40 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 104ms (Views: 102.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 16:05:11 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 89ms (Views: 87.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 16:06:09 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 117ms (Views: 116.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 16:08:18 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 73ms (Views: 72.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 16:08:45 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 75ms (Views: 74.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 16:10:32 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 75ms (Views: 73.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 16:13:26 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 97ms (Views: 95.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 16:15:12 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 88ms (Views: 87.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 16:16:46 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 66ms (Views: 64.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 16:18:54 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 71ms (Views: 70.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 16:20:50 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 59ms (Views: 58.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 16:23:43 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 79ms (Views: 77.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 16:32:39 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 73ms (Views: 72.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-03 16:33:27 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 73ms (Views: 72.2ms)
+
+

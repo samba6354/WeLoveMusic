@@ -8,6 +8,10 @@ body {
   overflow: auto;
   min-height: 100vh;
 }
+#image_slider{
+  margin-left: 100px;
+}
+
 .navbar-brand{
   font-family:fantasy;
   font-size: 200%;
@@ -19,6 +23,6 @@ body {
   width: 155px;
 }
 
-.fm{
+/* .fm{
   float: left;
-}
+} */
