@@ -50,13 +50,60 @@
 <body>
 <div class="stage" id="stage">
   <div class="block block-fill-height app-block-wayne" style="background-image: url(/assets/q.jpg)">
+<div id="image_slider" class="row">
+    <div id="slider" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#slider" data-slide-to="0" class="active"></li>
+    <li data-target="#slider" data-slide-to="1"></li>
+    <li data-target="#slider" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <div class="carousel-caption d-none d-md-block">
+      <h1>MLA</h1>
+      <p>Listen All tracks</p>
+      <a class="btn btn-info" <%= link_to 'Listen Here', mla_path %></a>
+     </div>
+     <img class="d-block img-fluid" src="/assets/mla.jpg" alt="Music Album 1">
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-caption d-none d-md-block">
+      <h1 class="text-serif">Rangasthalam</h1>
+      <p>Listen All tracks</p>
+      <a class="btn btn-info" <%= link_to 'Listen Here', ranga_path %></a>
+     </div>
+     <img class="d-block img-fluid" src="/assets/ranga.jpg" alt="Music Album 2">
+    </div>
+    <div class="carousel-item">
+    <div class="carousel-caption d-none d-md-block">
+    <h1 class="text-serif" >Tholi Prema</h1>
+    <p>Listen All tracks</p>
+    <a class="btn btn-info" <%= link_to 'Listen Here', tholi_path %></a>
+   </div>
+   <img class="d-block img-fluid" src="/assets/tholi.jpg" alt="Music Album 3">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  </div>
+  </div>
+</br></br></br></br></br></br></br></br></br></br></br></br><br></br><br></br>
+</br></br></br></br></br></br></br></br></br></br></br></br><br></br><br></br>
+
+<div class="row">
     <div class="block-sm-right block-xs-top">
       <div class="container">
         <div class="row">
           <div class="col-lg-5">
             <h1 class="block-title mb-4">
               <span class="text-ribbon text-ribbon-primary">
-                <span><a class="text-dark" <%= link_to 'Live FM Radio', lyrics_path %></a></span>
+                <span><a class="text-dark" <%= link_to 'Live FM Radio', fm_path %></a></span>
               </span>
             </h1>
             <p class="lead mt-1">
@@ -68,7 +115,8 @@
             </p>
           </div>
         </div>
-        </br></br></br></br></br></br></br></br></br></br></br></br>
+      </div>
+        <!-- </br></br></br></br></br></br></br></br></br></br></br></br> -->
         <div class="container">
   <div class="row">
     <div class="col">
@@ -299,7 +347,7 @@
       </div>
     </div>
 
-<div id="image_slider" class="row" >
+<!-- <div id="image_slider" class="row" >
     <div id="slider" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#slider" data-slide-to="0" class="active"></li>
@@ -340,7 +388,7 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
+</div> -->
 
     <div class="block-xs-middle">
       <div id="songs_list" class="container">
@@ -357,7 +405,7 @@
       <%=audio_tag "tholi.mp3", class:'audio-to-play', controls:true %>
         </div>
       </div>
-        <!-- <div id="signup" class="row"> -->
+        <div id="signup" class="row">
           <div class="col-md-6 offset-md-6">
             <h1 class="block-title mb-4">
               <span class="text-ribbon text-ribbon-success">
@@ -375,14 +423,14 @@
             </button>
           </form>
           </div>
-        <!-- </div> -->
+        </div>
         <p></p>
-        <div id="signup-text" class="alert alert-success" role="alert">
+        <div id="signup-text" style="text-align:center;" class="alert alert-success" role="alert">
         <strong>Hello User Please Fill fieldset for Sign up</strong>
         </div>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
   <div class="block block-inverse accent-primary" id="footer">
     <div class="container">
       <div class="row text-serif">
