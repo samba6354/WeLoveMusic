@@ -18,6 +18,7 @@ get 'nekalla', to:'welcome#nekalla'
 get 'oosupodu', to:'welcome#oosupodu'
 get 'adiga', to:'welcome#adiga'
 
+#Artists
 get 'dsp', to: 'artists#dsp'
 get 'anirudh', to: 'artists#anirudh'
 get 'anoop', to: 'artists#anoop'
@@ -26,9 +27,11 @@ get 'thaman', to: 'artists#thaman'
 get 'ilayaraja', to: 'artists#ilayaraja'
 get 'manisharma', to: 'artists#manisharma'
 
+#Aulbums
 get 'kirak', to: 'albums#kirak'
 get 'ranga', to: 'albums#ranga'
 get 'mla', to: 'albums#mla'
 get 'chal', to: 'albums#chal'
 get 'tholi', to: 'albums#tholi'
+get 'krish', to: 'albums#krish'
 end

@@ -8,8 +8,8 @@ body {
   overflow: auto;
   min-height: 100vh;
 }
-#image_slider{
-  margin-left: 250px;
+#signup{
+  float: right;
 }
 
 .navbar-brand{
