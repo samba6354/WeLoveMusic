@@ -9,7 +9,10 @@ body {
   min-height: 100vh;
 }
 #signup{
-  float: right;
+  padding-right: 100px;
+}
+#fm{
+  padding-left: 250px;
 }
 
 .navbar-brand{
@@ -22,7 +25,3 @@ body {
   height: 125px;
   width: 155px;
 }
-
-/* .fm{
-  float: left;
-} */
