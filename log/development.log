@@ -8373,3 +8373,59 @@ Processing by AlbumsController#krish as HTML
 Completed 200 OK in 50ms (Views: 49.3ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-04-09 16:32:16 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+Started GET "/" for 127.0.0.1 at 2018-04-09 16:32:20 -0400
+  Rendered welcome/home.html.erb within layouts/application (3397.0ms)
+Completed 200 OK in 4074ms (Views: 3556.8ms)
+
+
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 79ms (Views: 78.1ms)
+
+
+Started GET "/bharath" for 127.0.0.1 at 2018-04-09 16:32:28 -0400
+Processing by AlbumsController#bharath as HTML
+  Rendering albums/bharath.html.erb within layouts/application
+  Rendered albums/bharath.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 42ms (Views: 41.4ms)
+
+
+Started GET "/bharath" for 127.0.0.1 at 2018-04-09 16:45:01 -0400
+Processing by AlbumsController#bharath as HTML
+  Rendering albums/bharath.html.erb within layouts/application
+  Rendered albums/bharath.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 184ms (Views: 183.1ms)
+
+
+Started GET "/bharath" for 127.0.0.1 at 2018-04-09 16:49:40 -0400
+Processing by AlbumsController#bharath as HTML
+  Rendering albums/bharath.html.erb within layouts/application
+  Rendered albums/bharath.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 48ms (Views: 47.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-09 16:49:53 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 57ms (Views: 55.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-09 16:50:45 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 86ms (Views: 85.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-09 16:57:12 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 64ms (Views: 62.2ms)
+
+

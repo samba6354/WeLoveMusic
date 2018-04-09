@@ -27,11 +27,12 @@ get 'thaman', to: 'artists#thaman'
 get 'ilayaraja', to: 'artists#ilayaraja'
 get 'manisharma', to: 'artists#manisharma'
 
-#Aulbums
+#Albums
 get 'kirak', to: 'albums#kirak'
 get 'ranga', to: 'albums#ranga'
 get 'mla', to: 'albums#mla'
 get 'chal', to: 'albums#chal'
 get 'tholi', to: 'albums#tholi'
 get 'krish', to: 'albums#krish'
+get 'bharath', to: 'albums#bharath'
 end

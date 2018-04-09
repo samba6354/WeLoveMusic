@@ -56,9 +56,18 @@
   <li data-target="#slider" data-slide-to="1"></li>
   <li data-target="#slider" data-slide-to="2"></li>
   <li data-target="#slider" data-slide-to="3"></li>
+  <li data-target="#slider" data-slide-to="4"></li>
 </ol>
 <div class="carousel-inner" role="listbox">
   <div class="carousel-item active">
+    <div class="carousel-caption d-none d-md-block">
+    <h1>Bharath Ane Nenu</h1>
+    <p>Listen All tracks</p>
+    <a class="btn btn-info" <%= link_to 'Listen Here', bharath_path %></a>
+   </div>
+   <img class="d-block img-fluid" src="/assets/bharath2.jpg" alt="Music Album 0">
+  </div>
+  <div class="carousel-item">
     <div class="carousel-caption d-none d-md-block">
     <h1>MLA</h1>
     <p>Listen All tracks</p>
@@ -78,7 +87,7 @@
   <div class="carousel-caption d-none d-md-block">
   <h1 class="text-serif" >Kirak Party</h1>
   <p>Listen All tracks</p>
-  <a class="btn btn-info" <%= link_to 'Listen Here', tholi_path %></a>
+  <a class="btn btn-info" <%= link_to 'Listen Here', kirak_path %></a>
  </div>
  <img class="d-block img-fluid" src="/assets/kirak2.jpg" alt="Music Album 3">
   </div>
