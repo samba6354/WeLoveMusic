@@ -8429,3 +8429,93 @@ Processing by WelcomeController#home as HTML
 Completed 200 OK in 64ms (Views: 62.2ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-04-10 09:47:03 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2144.0ms)
+Completed 200 OK in 2606ms (Views: 2228.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-10 11:23:09 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2020.5ms)
+Completed 200 OK in 2954ms (Views: 2416.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-10 11:23:12 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 100ms (Views: 98.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-10 11:24:37 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 87ms (Views: 85.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-19 11:09:09 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+Started GET "/" for 127.0.0.1 at 2018-04-19 11:09:14 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (5773.4ms)
+  Rendered welcome/home.html.erb within layouts/application (3128.2ms)
+Completed 200 OK in 3653ms (Views: 3652.3ms)
+
+
+Completed 200 OK in 8097ms (Views: 6468.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-04 15:10:02 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (4957.7ms)
+Completed 200 OK in 7737ms (Views: 5577.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-04 15:41:44 -0400
+  
+NoMethodError (undefined method `et' for #<ActionDispatch::Routing::Mapper:0x00007ff3ea07e730>):
+  
+config/routes.rb:38:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-05-04 15:42:27 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 273ms (Views: 271.6ms)
+
+
+Started GET "/naperu" for 127.0.0.1 at 2018-05-04 15:43:09 -0400
+Processing by AlbumsController#naperu as HTML
+  Rendering albums/naperu.html.erb within layouts/application
+  Rendered albums/naperu.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 75ms (Views: 73.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-04 15:43:35 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 66ms (Views: 65.1ms)
+
+
+Started GET "/naperu" for 127.0.0.1 at 2018-05-04 15:43:44 -0400
+Processing by AlbumsController#naperu as HTML
+  Rendering albums/naperu.html.erb within layouts/application
+  Rendered albums/naperu.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 104ms (Views: 101.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-04 15:43:50 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 129ms (Views: 124.3ms)
+
+

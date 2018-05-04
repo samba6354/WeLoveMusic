@@ -35,4 +35,5 @@ get 'chal', to: 'albums#chal'
 get 'tholi', to: 'albums#tholi'
 get 'krish', to: 'albums#krish'
 get 'bharath', to: 'albums#bharath'
+get 'naperu', to: 'albums#naperu'
 end
