@@ -18,6 +18,10 @@ get 'nekalla', to:'welcome#nekalla'
 get 'oosupodu', to:'welcome#oosupodu'
 get 'adiga', to:'welcome#adiga'
 
+#Lyrics
+get 'sada', to:'lyrics#sada'
+get 'mehabooba', to:'lyrics#mehabooba'
+
 #Artists
 get 'dsp', to: 'artists#dsp'
 get 'anirudh', to: 'artists#anirudh'
@@ -36,4 +40,5 @@ get 'tholi', to: 'albums#tholi'
 get 'krish', to: 'albums#krish'
 get 'bharath', to: 'albums#bharath'
 get 'naperu', to: 'albums#naperu'
+get 'mahanati', to: 'albums#mahanati'
 end
