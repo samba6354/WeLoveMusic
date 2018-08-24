@@ -41,4 +41,8 @@ get 'krish', to: 'albums#krish'
 get 'bharath', to: 'albums#bharath'
 get 'naperu', to: 'albums#naperu'
 get 'mahanati', to: 'albums#mahanati'
+get 'geetha', to: 'albums#geetha'
+get 'rx100', to: 'albums#rx100'
+get 'sailaja', to: 'albums#sailaja'
+
 end
