@@ -9675,3 +9675,10 @@ Processing by WelcomeController#home as HTML
 Completed 200 OK in 67ms (Views: 65.7ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-08-24 10:04:03 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1618.1ms)
+Completed 200 OK in 2155ms (Views: 1734.4ms)
+
+
