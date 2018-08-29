@@ -44,5 +44,6 @@ get 'mahanati', to: 'albums#mahanati'
 get 'geetha', to: 'albums#geetha'
 get 'rx100', to: 'albums#rx100'
 get 'sailaja', to: 'albums#sailaja'
+get 'srinivasa', to: 'albums#srinivasa'
 
 end

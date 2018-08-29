@@ -17,7 +17,7 @@ body {
 #slider1{
 /* margin-left: 570px; */
 float: right;
-margin-right: 15px;
+margin-right: 5px;
 }
 #fm{
 margin-left: 200px;
@@ -27,8 +27,8 @@ margin-left: 200px;
   padding-left: 250px;
 } */
 .carousel-inner{
-width: 600px;
-height: 300px;
+width: 460px;
+height: 200px;
 }
 .carousel-inner img{
 width: 100%;
