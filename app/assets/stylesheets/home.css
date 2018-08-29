@@ -1,7 +1,10 @@
 body {
+  margin: 0;
+  padding:0;
   width: 1px;
   min-width: 100%;
   *width: 100%;
+
 }
 #stage {
   height: 1px;
@@ -11,10 +14,26 @@ body {
 #signup{
   padding-right: 100px;
 }
+#slider1{
+/* margin-left: 570px; */
+float: right;
+margin-right: 15px;
+}
 #fm{
+margin-left: 200px;
   padding-left: 250px;
 }
-
+/* #fm{
+  padding-left: 250px;
+} */
+.carousel-inner{
+width: 600px;
+height: 300px;
+}
+.carousel-inner img{
+width: 100%;
+height: 100%;
+}
 .navbar-brand{
   font-family:fantasy;
   font-size: 200%;
@@ -25,3 +44,5 @@ body {
   height: 125px;
   width: 155px;
 }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {}
