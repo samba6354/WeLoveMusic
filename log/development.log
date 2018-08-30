@@ -10713,3 +10713,108 @@ Processing by WelcomeController#home as HTML
 Completed 200 OK in 75ms (Views: 70.3ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-08-30 14:37:45 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (5725.1ms)
+Completed 200 OK in 7229ms (Views: 6018.3ms)
+
+
+Started GET "/thaman" for 127.0.0.1 at 2018-08-30 14:38:29 -0400
+Processing by ArtistsController#thaman as HTML
+  Rendering artists/thaman.html.erb within layouts/application
+  Rendered artists/thaman.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 126ms (Views: 116.8ms)
+
+
+Started GET "/thaman" for 127.0.0.1 at 2018-08-30 14:40:24 -0400
+Processing by ArtistsController#thaman as HTML
+  Rendering artists/thaman.html.erb within layouts/application
+  Rendered artists/thaman.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 63ms (Views: 62.2ms)
+
+
+Started GET "/thaman" for 127.0.0.1 at 2018-08-30 14:41:36 -0400
+Processing by ArtistsController#thaman as HTML
+  Rendering artists/thaman.html.erb within layouts/application
+  Rendered artists/thaman.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 60ms (Views: 59.6ms)
+
+
+Started GET "/thaman" for 127.0.0.1 at 2018-08-30 14:42:29 -0400
+Processing by ArtistsController#thaman as HTML
+  Rendering artists/thaman.html.erb within layouts/application
+  Rendered artists/thaman.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 51ms (Views: 50.5ms)
+
+
+Started GET "/thaman" for 127.0.0.1 at 2018-08-30 14:43:41 -0400
+Processing by ArtistsController#thaman as HTML
+  Rendering artists/thaman.html.erb within layouts/application
+  Rendered artists/thaman.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 48ms (Views: 46.6ms)
+
+
+Started GET "/thaman" for 127.0.0.1 at 2018-08-30 15:03:55 -0400
+Processing by ArtistsController#thaman as HTML
+  Rendering artists/thaman.html.erb within layouts/application
+  Rendered artists/thaman.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 49ms (Views: 48.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-30 15:03:59 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 71ms (Views: 70.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-30 15:04:34 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (156.1ms)
+Completed 200 OK in 595ms (Views: 593.7ms)
+
+
+Started GET "/geetha" for 127.0.0.1 at 2018-08-30 15:06:35 -0400
+Processing by AlbumsController#geetha as HTML
+  Rendering albums/geetha.html.erb within layouts/application
+  Rendered albums/geetha.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 282ms (Views: 253.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-30 15:06:50 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (74.5ms)
+Completed 200 OK in 201ms (Views: 160.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-30 15:15:14 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (3992.9ms)
+Completed 200 OK in 6119ms (Views: 4188.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-30 15:21:18 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (151.6ms)
+Completed 200 OK in 602ms (Views: 548.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-30 15:24:39 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (21.6ms)
+Completed 200 OK in 113ms (Views: 111.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-30 15:29:51 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 126ms (Views: 117.4ms)
+
+
