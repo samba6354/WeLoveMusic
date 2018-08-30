@@ -10853,3 +10853,31 @@ Processing by WelcomeController#home as HTML
 Completed 200 OK in 2481ms (Views: 1659.5ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-08-30 16:10:51 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (956.1ms)
+Completed 200 OK in 1611ms (Views: 1066.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-30 16:14:07 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 273ms (Views: 272.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-30 16:14:13 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 56ms (Views: 54.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-30 16:15:08 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 77ms (Views: 75.6ms)
+
+
