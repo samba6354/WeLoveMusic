@@ -7,3 +7,4 @@
 .col-md-8{
   padding-left: 350px;
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {}
