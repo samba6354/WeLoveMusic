@@ -13,11 +13,3 @@
  *= require_tree .
  *= require_self
  */
-
-
- img {
-     max-width: 100%;
- }
- iframe, object, embed{
- width: 100%;
- }
