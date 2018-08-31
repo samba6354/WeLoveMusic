@@ -19,13 +19,13 @@ body {
 float: right;
 margin-right: 5px;
 }
-#fm{
+/* #fm{
 margin-left: 200px;
   padding-left: 250px;
-}
-/* #fm{
-  padding-left: 250px;
 } */
+#fm{
+  margin-left: 250px;
+}
 .carousel-inner{
 width: 480px;
 height: 240px;

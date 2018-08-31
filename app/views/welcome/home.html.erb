@@ -28,7 +28,7 @@
     <div class="carousel-inner" role="listbox">
       <div class="carousel-item active">
         <div class="carousel-caption d-none d-md-block">
-        <h1>Geetha Govindam</h1>
+        <h3 class="text-serif">Geetha Govindam</h3>
         <p>Listen All tracks</p>
         <a class="btn btn-info" <%= link_to 'Listen Here', geetha_path %></a>
        </div>
@@ -36,7 +36,7 @@
       </div>
       <div class="carousel-item">
         <div class="carousel-caption d-none d-md-block">
-        <h1>Shailaja Reddy Alludu</h1>
+        <h3 class="text-serif">Shailaja Reddy Alludu</h3>
         <p>Listen All tracks</p>
         <a class="btn btn-info" <%= link_to 'Listen Here', sailaja_path %></a>
        </div>
@@ -44,7 +44,7 @@
       </div>
       <div class="carousel-item">
         <div class="carousel-caption d-none d-md-block">
-        <h1>Srinivasa Kalyanam</h1>
+        <h3 class="text-serif">Srinivasa Kalyanam</h3>
         <p>Listen All tracks</p>
         <a class="btn btn-info" <%= link_to 'Listen Here', srinivasa_path %></a>
        </div>
@@ -52,7 +52,7 @@
       </div>
       <div class="carousel-item">
         <div class="carousel-caption d-none d-md-block">
-        <h1>RX 100</h1>
+        <h3 class="text-serif">RX 100</h3>
         <p>Listen All tracks</p>
         <a class="btn btn-info" <%= link_to 'Listen Here', rx100_path %></a>
        </div>
@@ -60,7 +60,7 @@
       </div>
       <div class="carousel-item">
         <div class="carousel-caption d-none d-md-block">
-        <h1>Mahanati</h1>
+        <h3 class="text-serif">Mahanati</h3>
         <p>Listen All tracks</p>
         <a class="btn btn-info" <%= link_to 'Listen Here', mahanati_path %></a>
        </div>
@@ -68,7 +68,7 @@
       </div>
       <div class="carousel-item">
         <div class="carousel-caption d-none d-md-block">
-        <h1>Bharath Ane Nenu</h1>
+        <h3 class="text-serif">Bharath Ane Nenu</h3>
         <p>Listen All tracks</p>
         <a class="btn btn-info" <%= link_to 'Listen Here', bharath_path %></a>
        </div>
@@ -76,7 +76,7 @@
       </div>
       <div class="carousel-item">
         <div class="carousel-caption d-none d-md-block">
-        <h1>Naa Peru Surya Naa illu India</h1>
+        <h3 class="text-serif">Naa Peru Surya Naa illu India</h3>
         <p>Listen All tracks</p>
         <a class="btn btn-info" <%= link_to 'Listen Here', naperu_path %></a>
        </div>
@@ -84,7 +84,7 @@
       </div>
       <div class="carousel-item">
         <div class="carousel-caption d-none d-md-block">
-        <h1 class="text-serif">Rangasthalam</h1>
+        <h3 class="text-serif">Rangasthalam</h3>
         <p>Listen All tracks</p>
         <a class="btn btn-info" <%= link_to 'Listen Here', ranga_path %></a>
        </div>
@@ -92,7 +92,7 @@
       </div>
       <div class="carousel-item">
       <div class="carousel-caption d-none d-md-block">
-      <h1 class="text-serif" >Kirak Party</h1>
+      <h3 class="text-serif" >Kirak Party</h3>
       <p>Listen All tracks</p>
       <a class="btn btn-info" <%= link_to 'Listen Here', kirak_path %></a>
      </div>
@@ -100,7 +100,7 @@
       </div>
       <div class="carousel-item">
       <div class="carousel-caption d-none d-md-block">
-      <h1 class="text-serif" >Tholi Prema</h1>
+      <h3 class="text-serif" >Tholi Prema</h3>
       <p>Listen All tracks</p>
       <a class="btn btn-info" <%= link_to 'Listen Here', tholi_path %></a>
      </div>
@@ -139,39 +139,43 @@
           </div>
         </div>
       </div>
-      </br></br></br></br></br></br></br></br>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <div id="fm" class="container">
     <div class="row">
-    <div class="col">
+    <div class="col-sm">
       <h2><span class="badge badge-success">FM Station 1: NRI Radio</span></h2>
-      <audio controls src="http://50.7.99.163:11091/;"></audio><br></br>
+      <audio controls src="http://50.7.99.163:11091/;"></audio>
     </div>
-    <div class="col">
+    <div class="col-sm">
       <h2><span class="badge badge-success">FM Station 2: Hungama</span></h2>
-      <audio controls src="http://103.16.47.70:9444/;"></audio><br></br>
+      <audio controls src="http://103.16.47.70:9444/;"></audio>
     </div>
-    <div class="w-100"></div>
-    <div class="col">
+    <div class="col-sm">
     <h2><span class="badge badge-success">FM Station 3: Telugu One</span></h2>
-    <audio controls src="http://173.203.133.187:9700/;"></audio><br></br>
+    <audio controls src="http://173.203.133.187:9700/;"></audio>
     </div>
-    <div class="col">
+  </div>
+</div>
+<div id="fm" class="container">
+  <div class="row">
+    <div class="col-sm">
     <h2><span class="badge badge-success">FM Station 4: TG 9</span></h2>
-    <audio controls src="http://s6.voscast.com:10596/;"></audio><br></br>
+    <audio controls src="http://s6.voscast.com:10596/;"></audio>
     </div>
-  <div class="col">
-  <h2><span class="badge badge-success">FM Station 5: Manasutho Telugu FM</span></h2>
-  <audio controls src="http://85.25.95.17:8008/;stream/1;"></audio><br></br>
+  <div class="col-sm">
+  <h2><span class="badge badge-success">FM Station 5: Manasutho</span></h2>
+  <audio controls src="http://85.25.95.17:8008/;stream/1;"></audio>
   </div>
-  <div class="col">
-    <h2><span class="badge badge-success">FM Station 6: Telangana Radio</span></h2>
-    <audio controls src="http://198.178.123.17:10596/;"></audio><br></br>
+  <div class="col-sm">
+    <h2><span class="badge badge-success">FM Station 6: Geetham</span></h2>
+    <audio controls src="http://149.56.175.167:5700/stream;"></audio>
   </div>
   </div>
   </div>
     </div>
     </div>
-  </div>
+
   <div class="block block-inverse block-transparent py-0 app-block-grid">
     <div class="block-bg-clip">
       <div class="block-bg">
@@ -490,6 +494,7 @@
         </div>
     </div>
   </div>
+</div>
 </div>
 <script type="text/javascript">
 document.getElementById('choose').onclick=function(){
