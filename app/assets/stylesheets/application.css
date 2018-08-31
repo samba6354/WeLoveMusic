@@ -14,4 +14,10 @@
  *= require_self
  */
 
-@import "media.css";
+
+ img {
+     max-width: 100%;
+ }
+ iframe, object, embed{
+ width: 100%;
+ }
