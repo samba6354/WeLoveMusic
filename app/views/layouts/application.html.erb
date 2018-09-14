@@ -129,9 +129,22 @@
         </div>
       </li>
         </ul>
+                        <li class="nav-item active">
+            <a class="nav-link" <%= link_to('Sign Out', destroy_user_session_path, :method => :delete) %><span class="sr-only">(current)</span></a>
+              <% if !user_signed_in? %>
+  <p class="Sign in"><%= link_to "Login", new_user_session_path %></p>
+  <% end %>
+          </li>
       </div>
     </nav>
   </div>
+
+<!--   <p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p> -->
+
+
+
+
     <%= yield %>
     <!-- <script language="JavaScript" type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
     <script language="JavaScript" type="text/javascript" src="/js/jquery-ui-personalized-1.5.2.packed.js"></script>
