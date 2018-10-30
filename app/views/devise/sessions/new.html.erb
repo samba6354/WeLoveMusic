@@ -1,0 +1,40 @@
+<style type="text/css">
+  body{
+    color: white;
+  }
+</style>
+<h2 class="text-center">Log in</h2>
+
+<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+<div class="row justify-content-md-center">
+    <div class="block-xs-middle">
+      <div class="container">
+  <div class="field">
+    <%= f.label :email %><br />
+    <%= f.email_field :email, autofocus: true, placeholder:"Email", class:"h4 text-ribbon-input text-ribbon-primary" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :password %><br />
+    <%= f.password_field :password, autocomplete: "off",  placeholder:"Password", class:"h4 text-ribbon-input text-ribbon-primary" %>
+  </div>
+
+  <% if devise_mapping.rememberable? -%>
+    <div class="field">
+      <%= f.check_box :remember_me %>
+      <%= f.label :remember_me %>
+    </div>
+  <% end -%>
+
+  <div class="actions">
+    <%= f.submit "Log in", class:"btn btn-square btn-success btn-lg btn-block"%>
+  </div>
+     </button> <h4 text align="center"> Don't have an account? </h4>
+       <button id="showLoginForm" type="button" class="btn btn-square btn-secondary btn-lg btn-block">
+              <%= render "devise/shared/links" %>
+           </button>
+<% end %>
+
+</div>
+</div>
+</div>

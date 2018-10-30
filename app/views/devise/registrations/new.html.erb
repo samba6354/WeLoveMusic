@@ -1,0 +1,59 @@
+<style type="text/css">
+  body{
+    color: white;
+  }
+</style>
+<h2 class="text-center">Sign up</h2>
+
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+  <%= devise_error_messages! %>
+
+      
+    <div class="row justify-content-md-center">
+     <div class="block-xs-middle">
+      <div class="container">
+
+  <div class="field">
+    <%= f.label :email %><br />
+    <%= f.email_field :email, autofocus: true, placeholder:"Email", class:"h4 text-ribbon-input text-ribbon-primary" %>
+  </div>
+
+
+
+  <div class="field">
+    <%= f.label :lname %><b />
+    <%= f.text_field :lname, autofocus: true, placeholder:"Last Name", class:"h4 text-ribbon-input text-ribbon-primary" %>
+  </div>
+
+    <div class="field">
+    <%= f.label :fname %><br />
+    <%= f.text_field :fname, autofocus: true, placeholder:"First Name", class:"h4 text-ribbon-input text-ribbon-primary" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :password %>
+    <% if @minimum_password_length %>
+    <em>(<%= @minimum_password_length %> characters minimum)</em>
+    <% end %><br />
+    <%= f.password_field :password, autocomplete: "off", placeholder:"Password", class:"h4 text-ribbon-input text-ribbon-primary" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :password_confirmation %><br />
+    <%= f.password_field :password_confirmation, autocomplete: "off", placeholder:"Confirm Password", class:"h4 text-ribbon-input text-ribbon-primary" %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "Sign up", class:"btn btn-square btn-success btn-lg btn-block" %>
+  </div>
+              </button> <h4 text align="center"> Alredy have an account? </h4>
+            <button id="showLoginForm" type="button" class="btn btn-square btn-secondary btn-lg btn-block">
+            <%= render "devise/shared/links" %>
+            </button>
+        </div>
+      </div>
+      </div>
+
+<% end %>
+
+
