@@ -12,15 +12,8 @@
 
 ActiveRecord::Schema.define(version: 20180913182155) do
 
-  create_table "dummy", primary_key: "iddummy", id: :integer, default: nil, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
-    t.string "name", limit: 45
-    t.string "dates", limit: 45
-  end
-
   create_table "users", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
     t.string "email", default: "", null: false
-    t.string "lname", limit: 45
-    t.string "fname", limit: 45
     t.string "encrypted_password", default: "", null: false
     t.string "reset_password_token"
     t.datetime "reset_password_sent_at"
