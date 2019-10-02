@@ -13,25 +13,25 @@
 default: &default
   adapter: mysql2
   encoding: utf8
-  database: test
-  username: root
-  password: samba543
-  host: localhost
-  socket: /var/run/mysqld/mysqld.sock
+  database: welove_develop
+  username: sai_test_db
+  password: sai_test_db
+  host: secondtest.czuivkzwwwed.us-east-1.rds.amazonaws.com
+
   port: 3306
   timeout: 5000
 
 development:
   <<: *default
-  database: test
+  # database: welove_develop
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
-test:
-  <<: *default
-  database: user_database_test
-
-production:
-  <<: *default
-  database: db/production.sqlite3
+# test:
+#   <<: *default
+#   database: user_database_test
+#
+# production:
+#   <<: *default
+#   database: db/production.sqlite3
